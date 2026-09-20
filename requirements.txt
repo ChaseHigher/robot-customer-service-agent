@@ -1,0 +1,11 @@
+# Versions captured from the original openai-env environment.
+streamlit==1.63.0
+langchain==1.4.0
+langchain-core==1.6.2
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+langgraph==1.2.11
+chromadb==1.5.9
+dashscope==1.27.4
+pypdf==6.18.1
+PyYAML==6.0.3

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+logs/
+chroma_db/
+storage/*.sqlite3*
+md5.txt
