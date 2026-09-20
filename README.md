@@ -14,7 +14,6 @@ prompts/               Agent、RAG 和报告提示词
 config/                模型、Chroma 和提示词配置
 storage/               聊天历史存储
 utils/                 配置、文件、天气、引用等辅助功能
-tests/                 离线自动测试
 init_knowledge.py      初始化 Chroma 知识库
 requirements.txt       Python 依赖
 ```
@@ -57,12 +56,6 @@ Copy-Item .env.example .env
 
 打开终端显示的本地网址即可使用。模型调用和向量化可能产生费用。
 
-运行离线测试：
-
-```powershell
-python -m unittest discover -s tests -v
-```
-
 ## 主要功能
 
 - 基于本地知识库回答扫地机器人选购、维护和故障问题；
@@ -72,6 +65,6 @@ python -m unittest discover -s tests -v
 - 查询指定用户、指定月份的模拟使用记录；
 - 根据使用记录生成机器人使用报告和保养建议；
 - 使用 Chroma 保存文档向量，并支持 TXT、PDF 知识文件导入；
-- 提供引用处理、异常处理和离线自动测试。
+- 提供引用处理和异常处理。
 
 本项目是学习演示版本，未提供账号认证、多用户权限隔离和生产环境部署配置。
